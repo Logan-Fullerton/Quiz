@@ -1,0 +1,19 @@
+
+
+
+
+body {
+background:gray;
+}
+.app {
+    width: 80%;
+    max-width:500px;
+    background:whitesmoke;
+    color:black;
+    margin: 100px auto 0;
+    padding: 30px
+
+}
+.hide{
+    display: none;
+}
