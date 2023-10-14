@@ -1,14 +1,3 @@
-/*GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score*/
 var correctIndex=0
 var incorrectIndex=0
 var questionIndex =0
@@ -18,8 +7,8 @@ var sec = 60;
 const questions=[
     {
         question:"What is HTML?",
-        choices:["A ham tomato mayo lettuce sandwich","A honey tuna mustard lychee sandwich","The standard markup language for web pages","hot tomato margarita lemonade"],
-        answer:"The standard markup language for web pages",
+        choices:["A ham tomato mayo lettuce sandwich","A honey tuna mustard lychee sandwich","the standard markup language for web pages","hot tomato margarita lemonade"],
+        answer:"the standard markup language for web pages",
     },
     {
         question:"What is JavaScript?",
@@ -102,4 +91,3 @@ function quizEnd(){
     
 
 }
-
