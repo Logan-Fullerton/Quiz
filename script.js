@@ -19,17 +19,17 @@ const questions=[
     {
         question:"What is HTML?",
         choices:["A ham tomato mayo lettuce sandwich","A honey tuna mustard lychee sandwich","The standard markup language for web pages","hot tomato margarita lemonade"],
-        answer:"choice-3",
+        answer:"The standard markup language for web pages",
     },
     {
         question:"What is JavaScript?",
         choices:["A web programming language that can calculate, manipulate and validate data","A list of Starbucks drinkies","A screenplay about a struggling barista","all of the above"],
-        answer:"choice-1",
+        answer:"A web programming language that can calculate, manipulate and validate data",
     },
     {
         question:"What is CSS?",
         choices:["A competitive E-sports shooter","A web programming language that describes how HTML elements are to be displayed","A bad medical diagnosis","A type of illicit substance"],
-        answer:"choice-2",
+        answer:"A web programming language that describes how HTML elements are to be displayed",
     },
    
 ]
